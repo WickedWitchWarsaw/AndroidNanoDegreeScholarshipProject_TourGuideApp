@@ -10,7 +10,7 @@ public class AttractionsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_attractions);
+        setContentView(R.layout.listview_template);
     }
 
     public static void startAttractionsActivity(Context context){

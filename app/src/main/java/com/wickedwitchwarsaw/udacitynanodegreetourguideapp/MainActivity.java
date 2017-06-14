@@ -1,5 +1,7 @@
 package com.wickedwitchwarsaw.udacitynanodegreetourguideapp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -33,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.textView_phrases)
     public void goToPhrasesScreen(){
         PhrasesActivity.startPhrasesActivity(this);
+    }
+
+    public static void startMainActivity(Context context){
+        Intent mainActivityIntent = new Intent(context, MainActivity.class);
+        context.startActivity(mainActivityIntent);
     }
 }

@@ -10,7 +10,7 @@ public class HistoricalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_historical);
+        setContentView(R.layout.listview_template);
     }
 
     public static void startHistoricalActivity(Context context){
