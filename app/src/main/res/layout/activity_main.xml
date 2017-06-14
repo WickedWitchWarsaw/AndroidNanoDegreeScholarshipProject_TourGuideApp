@@ -18,25 +18,25 @@
             android:src="@drawable/warsaw" />
 
         <TextView
-            android:id="@+id/historicMonuments"
+            android:id="@+id/textView_historicMonuments"
             style="@style/categoryStyle"
             android:background="#002664"
             android:text="@string/historicMonuments" />
 
         <TextView
-            android:id="@+id/attractions"
+            android:id="@+id/textView_attractions"
             style="@style/categoryStyle"
             android:background="#550679"
             android:text="@string/attractions" />
 
         <TextView
-            android:id="@+id/restaurants"
+            android:id="@+id/textView_restaurants"
             style="@style/categoryStyle"
             android:background="#002664"
             android:text="@string/restaurants" />
 
         <TextView
-            android:id="@+id/phrases"
+            android:id="@+id/textView_phrases"
             style="@style/categoryStyle"
             android:background="#550679"
             android:text="@string/phrases" />
