@@ -19,7 +19,7 @@
             android:name=".HistoricalActivity"
             android:label="Historical Monuments" />
         <activity
-            android:name=".RestaurantsActivity"
+            android:name=".RestaurantActivity"
             android:label="Restaurants" />
         <activity
             android:name=".PhrasesActivity"

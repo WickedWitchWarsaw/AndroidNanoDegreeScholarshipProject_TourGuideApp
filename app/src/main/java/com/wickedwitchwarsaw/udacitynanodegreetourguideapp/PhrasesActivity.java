@@ -38,13 +38,13 @@ public class PhrasesActivity extends AppCompatActivity {
         listView.setAdapter(phraseAdapter);
     }
 
-    public static void startPhrasesActivity(Context context){
+    public static void startPhrasesActivity(Context context) {
         Intent phrasesActivityIntent = new Intent(context, PhrasesActivity.class);
         context.startActivity(phrasesActivityIntent);
     }
 
     @OnClick(R.id.imageview_main_menu)
-    public void backToMainMenu(){
+    public void backToMainMenu() {
         MainActivity.startMainActivity(this);
     }
 }

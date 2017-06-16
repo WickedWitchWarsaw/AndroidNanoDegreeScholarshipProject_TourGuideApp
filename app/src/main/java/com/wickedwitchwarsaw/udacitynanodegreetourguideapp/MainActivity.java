@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.textView_restaurants)
     public void goToRestaurantsScreen(){
-        RestaurantsActivity.startRestaurantsActivity(this);
+        RestaurantActivity.startRestaurantsActivity(this);
     }
 
     @OnClick(R.id.textView_phrases)

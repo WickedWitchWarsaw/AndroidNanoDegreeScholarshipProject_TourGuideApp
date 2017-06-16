@@ -30,7 +30,6 @@ public class EventsActivity extends AppCompatActivity {
         eventList.add(new Attraction("Gumball Rally", "26th July", "5pm", "Senatorska Street"));
         eventList.add(new Attraction("Flower Crowns on the Vistula", "6th August", "11am", "Skwer im. I Dywizji Pancernej"));
 
-
         EventAdapter eventAdapter = new EventAdapter(this, eventList);
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(eventAdapter);

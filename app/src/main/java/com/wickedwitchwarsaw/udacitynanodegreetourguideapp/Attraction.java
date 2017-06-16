@@ -11,7 +11,7 @@ public class Attraction {
     private String attractionTime;
     private int imageResourceId;
 
-    //Constructor in HistoricalActivity
+    //Constructor in HistoricalActivity & RestaurantActivity
     public Attraction(String attractionName, String attractionLocation, int imageResourseId) {
         this.attractionName = attractionName;
         this.attractionLocation = attractionLocation;
@@ -45,5 +45,4 @@ public class Attraction {
     public String getAttractionTime() {
         return attractionTime;
     }
-
 }

@@ -9,12 +9,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-
-
 /**
  * Created by ZuZ on 14/06/2017.
  */
-public class PhraseAdapter extends ArrayAdapter<Phrase>{
+public class PhraseAdapter extends ArrayAdapter<Phrase> {
     public PhraseAdapter(Activity context, ArrayList<Phrase> phrasesList) {
         super(context, 0, phrasesList);
     }
@@ -24,8 +22,8 @@ public class PhraseAdapter extends ArrayAdapter<Phrase>{
 
         Phrase currentPhrase = getItem(position);
         View listViewItem = convertView;
-        if(listViewItem == null){
-         listViewItem = LayoutInflater.from(getContext()).inflate(R.layout.phrases_list, parent, false);
+        if (listViewItem == null) {
+            listViewItem = LayoutInflater.from(getContext()).inflate(R.layout.phrases_list, parent, false);
         }
 
         TextView polishTranslation = (TextView) listViewItem.findViewById(R.id.translation_polish);

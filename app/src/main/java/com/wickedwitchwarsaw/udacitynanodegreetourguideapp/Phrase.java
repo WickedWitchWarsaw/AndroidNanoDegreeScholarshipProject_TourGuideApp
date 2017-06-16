@@ -22,5 +22,4 @@ public class Phrase {
     public String getTranslationEnglish() {
         return translationEnglish;
     }
-
 }

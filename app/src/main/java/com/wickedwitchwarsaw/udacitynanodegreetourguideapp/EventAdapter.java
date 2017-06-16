@@ -7,8 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 /**
@@ -24,7 +22,7 @@ public class EventAdapter extends ArrayAdapter<Attraction> {
 
         Attraction currentAttraction = getItem(position);
         View listViewItem = convertView;
-        if(convertView == null){
+        if (convertView == null) {
             listViewItem = LayoutInflater.from(getContext()).inflate(R.layout.event_list, parent, false);
         }
 
