@@ -11,11 +11,13 @@
         android:id="@+id/translation_polish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/phrasePolish"
         tools:text="zdanie po polsku"/>
 
     <TextView
         android:id="@+id/translation_english"
         android:layout_width="match_parent"
+        style="@style/phraseEnglish"
         android:layout_height="wrap_content"
         tools:text="sentence in english"/>
 

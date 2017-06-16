@@ -14,8 +14,8 @@ import java.util.ArrayList;
 /**
  * Created by ZuZ on 14/06/2017.
  */
-public class AdapterPhrase extends ArrayAdapter<Phrase>{
-    public AdapterPhrase(Activity context, ArrayList<Phrase> phrasesList) {
+public class PhraseAdapter extends ArrayAdapter<Phrase>{
+    public PhraseAdapter(Activity context, ArrayList<Phrase> phrasesList) {
         super(context, 0, phrasesList);
     }
 

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.textView_attractions)
     public void goToAttractionsScreen() {
-        AttractionsActivity.startAttractionsActivity(this);
+        EventsActivity.startAttractionsActivity(this);
     }
 
     @OnClick(R.id.textView_historicMonuments)

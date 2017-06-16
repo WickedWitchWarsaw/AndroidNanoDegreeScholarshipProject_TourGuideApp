@@ -2,7 +2,7 @@
     <string name="app_name">UdacityNanodegreeTourGuideApp</string>
 
     <string name="historicMonuments">Historic Monuments</string>
-    <string name="attractions">Attractions</string>
+    <string name="events">Events</string>
     <string name="restaurants">Restaurants</string>
     <string name="phrases">Useful Phrases</string>
 </resources>

@@ -5,9 +5,11 @@ package com.wickedwitchwarsaw.udacitynanodegreetourguideapp;
  */
 public class Phrase {
 
+    //Used for PhraseActivity
     private String translationPolish;
     private String translationEnglish;
 
+    //Constructor in PhraseActivity
     public Phrase(String translationPolish, String translationEnglish) {
         this.translationPolish = translationPolish;
         this.translationEnglish = translationEnglish;
@@ -17,15 +19,8 @@ public class Phrase {
         return translationPolish;
     }
 
-    public void setTranslationPolish(String translationPolish) {
-        this.translationPolish = translationPolish;
-    }
-
     public String getTranslationEnglish() {
         return translationEnglish;
     }
 
-    public void setTranslationEnglish(String translationEnglish) {
-        this.translationEnglish = translationEnglish;
-    }
 }

@@ -25,7 +25,7 @@
             android:name=".PhrasesActivity"
             android:label="Useful Phrases" />
         <activity
-            android:name=".AttractionsActivity"
+            android:name=".EventsActivity"
             android:label="Tourist Attractions" />
     </application>
 

@@ -33,9 +33,9 @@ public class PhrasesActivity extends AppCompatActivity {
         phrasesList.add(new Phrase("How to get to...", "Jak dojechac do..."));
         phrasesList.add(new Phrase("I don't understand", "Nie rozumiem"));
 
-        AdapterPhrase adapterPhrase = new AdapterPhrase(this, phrasesList);
+        PhraseAdapter phraseAdapter = new PhraseAdapter(this, phrasesList);
         ListView listView = (ListView) findViewById(R.id.listView);
-        listView.setAdapter(adapterPhrase);
+        listView.setAdapter(phraseAdapter);
     }
 
     public static void startPhrasesActivity(Context context){
