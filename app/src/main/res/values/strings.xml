@@ -5,4 +5,128 @@
     <string name="events">Events</string>
     <string name="restaurants">Restaurants</string>
     <string name="phrases">Useful Phrases</string>
+
+    <!-- Restaurants -->
+    <string name="rn1">Blue Cactus</string>
+    <string name="rl1">Zajaczkowska 11</string>
+
+    <string name="rn2">Same Krafty</string>
+    <string name="rl2">10 Ul. Nowomiejska</string>
+
+    <string name="rn3">Mr India - Indian Restaurant</string>
+    <string name="rl3">Al. Ken 47 | Metro Natolin</string>
+
+    <string name="rn4">Bulke przez Bibulke Restaurant</string>
+    <string name="rl4">ul. Zgoda 3</string>
+
+    <string name="rn5">Tortilla Factory</string>
+    <string name="rl5">ul Wilcza 5</string>
+
+    <string name="rn6">Hoza</string>
+    <string name="rl6">Ul Hoza 25</string>
+
+    <string name="rn7">Der Elefant</string>
+    <string name="rl7">ul. Plac Bankowy 1</string>
+
+    <!-- Historical Monuments -->
+    <string name="hn1">King Sigismund\'s Column</string>
+    <string name="hl1">Zamkowy Square</string>
+
+    <string name="hn2">Nicolaus Copernicus Monument</string>
+    <string name="hl2">Krakowskie Przedmieście Street</string>
+
+    <string name="hn3">Mr India - Indian Restaurant</string>
+    <string name="hl3">Al. Ken 47 | Metro Natolin</string>
+
+    <string name="hn4">Adam Mickiewicz Monument</string>
+    <string name="hl4">5 Krakowskie Przedmieście Street</string>
+
+    <string name="hn5">Chopin Monument</string>
+    <string name="hl5">Łazienki Park</string>
+
+    <string name="hn6">Ghetto Heroes Monument</string>
+    <string name="hl6">ul. Zamenhofa</string>
+
+    <!-- Events -->
+    <string name="en1">Coldplay</string>
+    <string name="el1">PGN Stadium</string>
+    <string name="et1">8pm</string>
+    <string name="ed1">18th June</string>
+
+    <string name="en2">Suzanne Vega</string>
+    <string name="el2">Zlota 6</string>
+    <string name="et2">7pm</string>
+    <string name="ed2">>26th June</string>
+
+    <string name="en3">Top Gear</string>
+    <string name="el3">PGN Stadium</string>
+    <string name="et3">5pm</string>
+    <string name="ed3">30th July</string>
+
+    <string name="en4">Evanescence</string>
+    <string name="el4">Pepsi Arena</string>
+    <string name="et4">7pm</string>
+    <string name="ed4">6th July</string>
+
+    <string name="en5">Multimedia Fountain Park</string>
+    <string name="el5">"Skwer im. I Dywizji Pancernej</string>
+    <string name="et5">7pm</string>
+    <string name="ed5">Every Fri and Sat</string>
+
+    <string name="en6">Wnet Warszawa Food Market</string>
+    <string name="el6">ul. Emilii Plater 31</string>
+    <string name="et6">10am</string>
+    <string name="ed6">Every Sat</string>
+
+    <string name="en7">Depeche Mode</string>
+    <string name="el7">Al. Ks. J. Poniatowskiego 1</string>
+    <string name="et7">8pm</string>
+    <string name="ed7">16th July</string>
+
+    <string name="en8">Gumball Rally</string>
+    <string name="el8">Senatorska Street</string>
+    <string name="et8">5pm</string>
+    <string name="ed8">26th Jul</string>
+
+    <string name="en9">Flower Crowns on the Vistula</string>
+    <string name="el9">Skwer im. I Dywizji Pancernej</string>
+    <string name="et9">11am</string>
+    <string name="ed9">6th August</string>
+
+    <!-- Phrases -->
+    <string name="pp1">Dzien Dobry</string>
+    <string name="pe1">Good Morning</string>
+
+    <string name="pp2">Dziekuje</string>
+    <string name="pe2">Thank you</string>
+
+    <string name="pp3">Poprosze</string>
+    <string name="pe3">Please</string>
+
+    <string name="pp4">Tak</string>
+    <string name="pe4">Yes</string>
+
+    <string name="pp5">Nie</string>
+    <string name="pe5">No</string>
+
+    <string name="pp6">Nazywam sie...</string>
+    <string name="pe6">My name is...</string>
+
+    <string name="pp7">Dwa piwa</string>
+    <string name="pe7">Two beers</string>
+
+    <string name="pp8">Chcialbym/Chcialabym zamowic...</string>
+    <string name="pe8">I\'d (he/she) like to order...</string>
+
+    <string name="pp9">Poprosze rachunek</string>
+    <string name="pe9">Bill please</string>
+
+    <string name="pp10">Ile kosztuje?</string>
+    <string name="pe10">How much does in cost?</string>
+
+    <string name="pp11">Jak dojechac do...</string>
+    <string name="pe11">How to get to...</string>
+
+    <string name="pp12">Nie rozumiem</string>
+    <string name="pe12">I don\'t understand</string>
 </resources>

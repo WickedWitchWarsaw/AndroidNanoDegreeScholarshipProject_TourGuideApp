@@ -20,15 +20,24 @@ public class EventsActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ArrayList<Attraction> eventList = new ArrayList<>();
-        eventList.add(new Attraction("Coldplay", "18th June", "8pm", "PGN Stadium"));
-        eventList.add(new Attraction("Suzanne Vega", "26th June", "7pm", "Zlota 6"));
-        eventList.add(new Attraction("Top Gear", "30th June", "5pm", "PGN Stadium"));
-        eventList.add(new Attraction("Evanescence", "6th July", "7pm", "Pepsi Arena"));
-        eventList.add(new Attraction("Multimedia Fountain Park", "Every Fri & Sat", "7pm", "Skwer im. I Dywizji Pancernej"));
-        eventList.add(new Attraction("Wnet Warszawa Food Market", "Every Sat", "10am", "ul. Emilii Plater 31"));
-        eventList.add(new Attraction("Depeche Mode", "16th July", "8pm", "Al. Ks. J. Poniatowskiego 1"));
-        eventList.add(new Attraction("Gumball Rally", "26th July", "5pm", "Senatorska Street"));
-        eventList.add(new Attraction("Flower Crowns on the Vistula", "6th August", "11am", "Skwer im. I Dywizji Pancernej"));
+        eventList.add(new Attraction(getResources().getString(R.string.en1), getResources().getString(R.string.ed1),
+                getResources().getString(R.string.et1), getResources().getString(R.string.el1)));
+        eventList.add(new Attraction(getResources().getString(R.string.en2), getResources().getString(R.string.ed2),
+                getResources().getString(R.string.et2), getResources().getString(R.string.el2)));
+        eventList.add(new Attraction(getResources().getString(R.string.en3), getResources().getString(R.string.ed3),
+                getResources().getString(R.string.et3), getResources().getString(R.string.el3)));
+        eventList.add(new Attraction(getResources().getString(R.string.en4), getResources().getString(R.string.ed4),
+                getResources().getString(R.string.et4), getResources().getString(R.string.el4)));
+        eventList.add(new Attraction(getResources().getString(R.string.en5), getResources().getString(R.string.ed5),
+                getResources().getString(R.string.et5), getResources().getString(R.string.el5)));
+        eventList.add(new Attraction(getResources().getString(R.string.en6), getResources().getString(R.string.ed6),
+                getResources().getString(R.string.et6), getResources().getString(R.string.el6)));
+        eventList.add(new Attraction(getResources().getString(R.string.en7), getResources().getString(R.string.ed7),
+                getResources().getString(R.string.et7), getResources().getString(R.string.el7)));
+        eventList.add(new Attraction(getResources().getString(R.string.en8), getResources().getString(R.string.ed8),
+                getResources().getString(R.string.et8), getResources().getString(R.string.el8)));
+        eventList.add(new Attraction(getResources().getString(R.string.en9), getResources().getString(R.string.ed9),
+                getResources().getString(R.string.et9), getResources().getString(R.string.el9)));
 
         EventAdapter eventAdapter = new EventAdapter(this, eventList);
         ListView listView = (ListView) findViewById(R.id.listView);

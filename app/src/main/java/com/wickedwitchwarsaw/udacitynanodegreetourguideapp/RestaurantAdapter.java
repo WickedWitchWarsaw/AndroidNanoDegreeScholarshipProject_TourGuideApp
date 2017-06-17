@@ -21,7 +21,6 @@ public class RestaurantAdapter extends ArrayAdapter<Attraction> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-
         Attraction currentAttraction = getItem(position);
         View listViewItem = convertView;
         if(convertView == null){

@@ -20,13 +20,13 @@ public class RestaurantActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ArrayList<Attraction> restaurantList = new ArrayList<>();
-        restaurantList.add(new Attraction("Blue Cactus", "Zajaczkowska 11", R.drawable.number_nine));
-        restaurantList.add(new Attraction("Same Krafty", "10 Ul. Nowomiejska", R.drawable.number_one));
-        restaurantList.add(new Attraction("Mr India - Indian Restaurant", "Al. Ken 47 | Metro Natolin", R.drawable.number_four));
-        restaurantList.add(new Attraction("Bulke przez Bibulke Restaurant", "ul. Zgoda 3", R.drawable.number_one));
-        restaurantList.add(new Attraction("Hoza", "Ul Hoza 25", R.drawable.number_nine));
-        restaurantList.add(new Attraction("Tortilla Factory", "ul Wilcza 5", R.drawable.number_four));
-        restaurantList.add(new Attraction("Der Elefant", "ul. Plac Bankowy 1", R.drawable.number_seven));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn1), getResources().getString(R.string.rl1), R.drawable.number_nine));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn2), getResources().getString(R.string.rl2), R.drawable.number_one));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn3), getResources().getString(R.string.rl3), R.drawable.number_four));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn4), getResources().getString(R.string.rl4), R.drawable.number_one));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn5), getResources().getString(R.string.rl5), R.drawable.number_nine));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn6), getResources().getString(R.string.rl6), R.drawable.number_four));
+        restaurantList.add(new Attraction(getResources().getString(R.string.rn7), getResources().getString(R.string.rl7), R.drawable.number_seven));
 
         RestaurantAdapter restaurantAdapter = new RestaurantAdapter(this, restaurantList);
         ListView listView = (ListView) findViewById(R.id.listView);

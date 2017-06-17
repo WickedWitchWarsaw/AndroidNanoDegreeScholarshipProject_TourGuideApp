@@ -20,13 +20,13 @@ public class HistoricalActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ArrayList<Attraction> historicalMonument = new ArrayList<>();
-        historicalMonument.add(new Attraction("King Sigismund's Column", "Zamkowy Square", R.drawable.zygmunt));
-        historicalMonument.add(new Attraction("Nicolaus Copernicus Monument", "Krakowskie Przedmieście Street",
+        historicalMonument.add(new Attraction(getResources().getString(R.string.hn1), getResources().getString(R.string.hl1), R.drawable.zygmunt));
+        historicalMonument.add(new Attraction(getResources().getString(R.string.hn2), getResources().getString(R.string.hl2),
                 R.drawable.copernicus));
-        historicalMonument.add(new Attraction("Adam Mickiewicz Monument", " 5 Krakowskie Przedmieście Street",
+        historicalMonument.add(new Attraction(getResources().getString(R.string.hn3), getResources().getString(R.string.hl3),
                 R.drawable.mickiewicz));
-        historicalMonument.add(new Attraction("Chopin Monument", "Łazienki Park", R.drawable.chopin));
-        historicalMonument.add(new Attraction("Ghetto Heroes Monument", "ul. Zamenhofa", R.drawable.getto));
+        historicalMonument.add(new Attraction(getResources().getString(R.string.hn4), getResources().getString(R.string.hl4), R.drawable.chopin));
+        historicalMonument.add(new Attraction(getResources().getString(R.string.hn5), getResources().getString(R.string.hl5), R.drawable.getto));
 
         HistoricalAdapter historicalAdapter = new HistoricalAdapter(this, historicalMonument);
         ListView listView = (ListView) findViewById(R.id.listView);
